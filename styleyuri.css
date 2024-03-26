@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+nav ul li{
+    margin-right: 15px;
+    color: bisque(23, 17, 0);
+    font-weight: 500;
+}
+nav h1{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+nav h1 img{
+   max-height: 100%;
+   max-width: 100%;
+}
+nav ul li:hover{
+    font-weight: bold;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.hall{
+    width: 40%;
+    display: flex;
+}
+.description{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.container img{
+    display: flex;
+    margin: auto;
+    width: 15%;
+    align-items: auto;
+}
+.btn1{
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    
+}
+@keyframes animacaoBotao {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2.0);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  button {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00ccff;
+    color: #ffffff;
+    border: rgb(0, 174, 255);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  button:hover{
+    background-color: aqua;
+
+  }
